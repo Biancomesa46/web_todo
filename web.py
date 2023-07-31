@@ -23,4 +23,3 @@ for todo in todos:
 
 
 streamlit.text_input(label=' ', placeholder='Enter a new todo', on_change=add_todo, key='new_todo')
-streamlit.session_state
